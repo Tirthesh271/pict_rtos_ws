@@ -1,7 +1,7 @@
 # pict_rtos_ws
 This repository is created for the PICT RTOS Workshop. Please fork this repository and push solutions of any assignments into your own fork.
 
-The list of tasks for GIT
+## The list of tasks for GIT
 1. To create a branch with your own name e.g. assignments/aditya in the master branch
 2. Create a sub branch in it 
 3. Raise a merge request for that sub branch, select the assignee , source branch , target branch and merge the branch
@@ -14,3 +14,10 @@ The list of tasks for GIT
 10. Learn about detached HEAD state and how to operate from there
 11. learn how to move files from different origins like github to gitlab or viceversa
 12. what are sub-modules and what are they used for ?
+
+## FreeRTOS Task
+1. Producer Consumer
+
+i) Create a task which allocates space from heap
+ii) Create a task which can free the space allocated by task in Step 1
+iii) Print available heap space in both the tasks
